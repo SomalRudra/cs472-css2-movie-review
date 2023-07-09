@@ -1,0 +1,154 @@
+body {
+    background-image: url("images/background.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+#banner-img {
+    width: 100%;
+    height: auto;
+    background-image: url("images/bannerbg.png");
+    background-size:contain;
+    background-repeat: repeat-x;
+}
+
+#body-title {
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 3px 3px #999999;
+}
+
+.review-box-parent{
+    display: flex;
+    flex-direction: column;
+    border: 4px solid gray;
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.review-section {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.review-number{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    background-image: url("images/rbg.png");
+    background-repeat: repeat;
+    border-radius: 10px 0 0 0;
+}
+
+.review-number img{
+    width: 15%;
+    height: 80%;
+    align-self: center;
+    margin-left: 10px;
+}
+
+.review-number p{
+    color: red;
+    text-align: start;
+    align-self: center;
+    font-size: 70px;
+    margin-left: 10px;
+}
+
+.review-and-overview {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    flex-direction: row ;
+}
+
+.review-details {
+    width: 100%;
+}
+
+.horizontal-grid {
+    display: flex;
+    width: 97%;
+    flex-direction: row;
+    margin-right: 15px;
+}
+
+.vertical-grid {
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;  
+}
+
+.review-content-parent{
+    display: flex;
+    flex: 0.5;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 10px; 
+}
+
+.review-content-parent img{
+    flex-shrink: 0;
+    margin-right: 20px;
+    height: 40px;
+    align-self: center;
+    margin-top: 10px;
+    margin-left: 10px
+}
+
+.review-content-parent p{
+    text-overflow: ellipsis;
+}
+
+.review-critic-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.review-critic-parent img {
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    margin-right: 4px;
+}
+
+
+.movie-overview {
+    width: 30%;
+    display: flex;
+    flex: 0.3;
+    flex-direction: column;
+    align-self: center;
+}
+
+.movie-overview img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 10px 0 0px;
+}
+
+.movie-overview dl {
+    margin: 0 0 0 0;
+    background-color: #A2B964
+}
+
+.pagination {
+    background-color: #A2B964;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  .grid-item {
+    background-color: #e0e0e0;
+    padding: 20px;
+  }
